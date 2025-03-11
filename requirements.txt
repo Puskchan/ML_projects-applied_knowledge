@@ -7,3 +7,7 @@ scipy
 openpyxl
 plotly
 category_encoders
+bayesian-optimization
+# gym
+# stable-baselines3
+# shimmy
