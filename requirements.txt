@@ -11,3 +11,5 @@ bayesian-optimization
 # gym
 # stable-baselines3
 # shimmy
+nltk
+imbalanced-learn
