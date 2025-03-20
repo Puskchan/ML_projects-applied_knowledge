@@ -13,3 +13,4 @@ bayesian-optimization
 # shimmy
 nltk
 imbalanced-learn
+wordcloud
