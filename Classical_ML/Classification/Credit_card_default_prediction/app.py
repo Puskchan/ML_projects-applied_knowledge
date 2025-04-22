@@ -3,6 +3,7 @@ import os
 import pandas as pd
 import numpy as np
 import pickle
+import joblib
 import plotly.express as px
 import shap
 import matplotlib.pyplot as plt
@@ -12,7 +13,7 @@ import matplotlib.pyplot as plt
 def load_model():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     model_path = os.path.join(script_dir, 'model.pkl')
-    with open('model.pkl', 'rb') as file:
+    with open(model_path, 'rb') as file:
         model = pickle.load(file)
     return model
 
