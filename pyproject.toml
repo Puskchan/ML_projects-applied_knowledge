@@ -5,7 +5,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "autoviz>=0.1.905",
     "bayesian-optimization>=2.0.3",
     "category-encoders>=2.8.1",
     "graphviz>=0.20.3",
