@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # Load the model
 @st.cache_resource
 def load_model():
-    with open('./model.pkl', 'rb') as file:
+    with open('model.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
