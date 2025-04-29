@@ -433,6 +433,38 @@ wheels = [
 ]
 
 [[package]]
+name = "fireducks"
+version = "1.2.7"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "firefw" },
+    { name = "pandas" },
+    { name = "pyarrow" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d2/d6/8243384d85981b3d1b2d945f0f6bd38384b0162af6037e929674c92f29fa/fireducks-1.2.7-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:2a69b358cd24f8242321d70db5f71e4f1eba7ee4bea0572e7e84998f256ce85c", size = 6510241 },
+    { url = "https://files.pythonhosted.org/packages/4b/fb/3a973ec3167cb5f9108059cff21bf9d06a2ac015852fc7f967fdd508d26c/fireducks-1.2.7-cp310-cp310-manylinux_2_17_x86_64.whl", hash = "sha256:d844cafe79285695d87a75976d113efe12e72ccea988cf7f7d0b354b941ead5e", size = 7385209 },
+    { url = "https://files.pythonhosted.org/packages/6e/f3/97b0677f764632177baa636c195a00733d653edafb2664af3218f96faaab/fireducks-1.2.7-cp310-cp310-manylinux_2_28_x86_64.whl", hash = "sha256:54a5fca737ab51d7fa17c62975b45e2508c350e88b9e14de26337752d2b573de", size = 7430066 },
+    { url = "https://files.pythonhosted.org/packages/2f/95/a63f928838ba2c82b3a620af1362c57f61d9538e38097abd1aa1f0085ee2/fireducks-1.2.7-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:94307a2bf26b3b30ec304216bdb4ebed4f9532506bd4a0edd2fce55807e4e941", size = 6511166 },
+    { url = "https://files.pythonhosted.org/packages/df/13/95a503fa106f94b19d3b644d3d549c0ca36a3a7e6b069af7779458728239/fireducks-1.2.7-cp311-cp311-manylinux_2_17_x86_64.whl", hash = "sha256:b00fb1277ee70fd15c22f4d5427d888281bafb4d3d7400b6a74e29e917e32bb5", size = 7389577 },
+    { url = "https://files.pythonhosted.org/packages/23/aa/4d4d37db36812d56f93843760dda630ae4afff0bf15b0ee9a2b5f23d3d45/fireducks-1.2.7-cp311-cp311-manylinux_2_28_x86_64.whl", hash = "sha256:727660790efbaea7003c37c322907f01fa907c5529c745e6c99fed86d1f286bf", size = 7431070 },
+    { url = "https://files.pythonhosted.org/packages/e5/9d/6c485710fa85ab1e18ede5b3e6888f5d6a3d0a419279bc3d9c6001c38168/fireducks-1.2.7-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:cc57dce61d28466fe613e4583b6600ad0172c393db5cfdfcd1bcd25adaf08f44", size = 6513243 },
+    { url = "https://files.pythonhosted.org/packages/61/c2/178b918027e821760b18179aca4e4f75a99d155e115732493a52010fef92/fireducks-1.2.7-cp312-cp312-manylinux_2_17_x86_64.whl", hash = "sha256:807a578cdf6d45745c6e2822209d88e16158c883cc0cebb78880c3da53af95f6", size = 7389581 },
+    { url = "https://files.pythonhosted.org/packages/58/52/69d6bad7fa612eba0a8931a295798343385ea8a0c2493ad36158babb9cbf/fireducks-1.2.7-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:63e78215dfea25e0812e7efe41c800852e0d097ab20828d78909e1cc02c2f5e6", size = 7426041 },
+    { url = "https://files.pythonhosted.org/packages/a3/da/145ea9021a3c98992ad3c320b2d39b828ebd3755f47bd94883363af4751e/fireducks-1.2.7-cp313-cp313-macosx_14_0_arm64.whl", hash = "sha256:2d9446dfa40f48ba68adbd470cc6f0dea676a47afb2174a2387d3caadce32d97", size = 6513466 },
+    { url = "https://files.pythonhosted.org/packages/c4/bc/f9adff1059b89a79107456e306ee33eb80dbcf81dfdb1a9fda2f2b176322/fireducks-1.2.7-cp313-cp313-manylinux_2_17_x86_64.whl", hash = "sha256:bb68e86f1c28611cb04cd68147ff866dba15a814a002fb9718645e32fb337687", size = 7389255 },
+    { url = "https://files.pythonhosted.org/packages/29/69/6b1c69635c000393349f78010c14b0ebf836c68a813a5a2a3c149d69a8a2/fireducks-1.2.7-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:2370f0d483ccffdf647c1e8ceb6de09eeb03511b20afc5894b09dc8d4f470cdf", size = 7425666 },
+]
+
+[[package]]
+name = "firefw"
+version = "1.2.7"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/42/ea/e3c72470d9aec795ad086737bca3beb050dd1b9177d67f672853b53f58e2/firefw-1.2.7-py3-none-any.whl", hash = "sha256:4ef95e9951270bc298af181e311c53619f246fe98f433ca6b652a48e765f1971", size = 12912 },
+]
+
+[[package]]
 name = "flask"
 version = "3.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1171,6 +1203,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "bayesian-optimization" },
     { name = "category-encoders" },
+    { name = "fireducks" },
     { name = "graphviz" },
     { name = "imbalanced-learn" },
     { name = "ipywidgets" },
@@ -1197,6 +1230,7 @@ dependencies = [
 requires-dist = [
     { name = "bayesian-optimization", specifier = ">=2.0.3" },
     { name = "category-encoders", specifier = ">=2.8.1" },
+    { name = "fireducks", specifier = ">=1.2.7" },
     { name = "graphviz", specifier = ">=0.20.3" },
     { name = "imbalanced-learn", specifier = ">=0.13.0" },
     { name = "ipywidgets", specifier = ">=8.1.6" },
